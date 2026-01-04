@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="login-wrapper">
+
+    <!-- LEFT IMAGE -->
+    <div class="login-image">
+     <img src="https://images.pexels.com/photos/346885/pexels-photo-346885.jpeg" alt="Travel" />
+
+      <div class="overlay-text">
+        <h2>Travelista Tours</h2>
+        <p>Travel is the only purchase that enriches you in ways beyond material wealth</p>
+      </div>
+    </div>
+
+    <!-- RIGHT LOGIN FORM -->
+    <div class="login-form">
+      <h2>Welcome</h2>
+      <p class="subtitle">Login with Email</p>
+
+      <input type="email" id="email" placeholder="Email Id">
+      <input type="password" id="password" placeholder="Password">
+
+      <button onclick="login()" id="loginBtn">LOGIN</button>
+
+      <p class="forgot">Forgot your password?</p>
+
+      <div class="or-separator"><span>OR</span></div>
+
+      <div class="social-login">
+        <button class="google">G</button>
+        <button class="facebook">F</button>
+        <button class="apple"></button>
+      </div>
+
+      <p class="register">Don't have account? <a href="#">Register Now</a></p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
